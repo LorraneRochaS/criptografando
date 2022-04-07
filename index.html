@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Pacifico&family=Permanent+Marker&family=Playfair+Display&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./codificar.css">
+    <title>Codificando</title>
+</head>
+
+<body>
+
+    <section class="conteudo">
+    <h1> Codifique/Descodifique Textos </h1>
+
+
+    <section class="TipoCods">
+        <form action="" id="form">
+
+            <label for="opcoes">Escolha o Código</label>
+
+            <select name="" id="opcoes">
+
+                <option value="cifra"> Cifra de César </option>
+
+
+                <option value="base">Base64 </option>
+            </select>
+        </form>
+
+
+        <div class="Codificando">
+
+            <input class="text" id="textCod" placeholder=" Digite aqui">
+            <!-- <input class="textCodificado" id="Cod" disabled=""> -->
+
+        </div>
+
+        <div class="botnCodificar">
+
+            <section class="incremento" id="incremento">
+
+                <label for="incremento">Incremento</label>
+                <input id="IncreCifra" type="number" min="1">
+
+            </section>
+
+             <input type="checkbox" name="cod" id="Codific">Codificar  
+            <input type="checkbox" name="descod"  id="Descodific">Descriptografar 
+        </div>
+
+        <section class="submit">
+            <button id="submit" class="submit">Codificar</button>
+        </section>
+
+
+    </section>
+</section>
+
+    <script src="./codificar.js"></script>
+</body>
+
+</html>
